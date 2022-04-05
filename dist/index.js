@@ -237,7 +237,9 @@ var NotificationAlert = /*#__PURE__*/function (_React$Component) {
 
         return /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement(_reactstrap.Col, {
           xs: "11",
-          sm: "4",
+          md: "7",
+          lg: "6",
+          xl: "4",
           style: style
         }, this.state["notify" + place.toUpperCase()].map(function (prop, key) {
           return prop;
